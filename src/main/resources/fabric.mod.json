@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "flick180",
+  "version": "${version}",
+  "name": "Flick 180",
+  "description": "Two keybinds: 180 degree flick, and quick peek behind (flick and back).",
+  "authors": ["Emilian"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.emilian.flick180.Flick180Client"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
